@@ -1,0 +1,208 @@
+[
+  {
+    "name": "LineTraceAction",
+    "forward": 78,
+    "p_gain": 0.9,
+    "i_gain": 0.02,
+    "d_gain": 3.5,
+    "edge": "sub_edge",
+    "judge": {
+      "name": "Distance",
+      "distance": 275
+    }
+  },
+  {
+    "name": "LineTraceAction",
+    "forward": 66,
+    "p_gain": 1.5,
+    "i_gain": 0.4,
+    "d_gain": 2.0,
+    "edge": "sub_edge",
+    "judge": {
+      "name": "Distance",
+      "distance": 50
+    }
+  },
+  {
+    "name": "LineTraceAction",
+    "forward": 78,
+    "p_gain": 0.9,
+    "i_gain": 0.02,
+    "d_gain": 3.5,
+    "edge": "sub_edge",
+    "judge": {
+      "name": "Distance",
+      "distance": 170
+    }
+  },
+  {
+    "name": "LineTraceAction",
+    "forward": 66,
+    "p_gain": 1.5,
+    "i_gain": 0.05,
+    "d_gain": 2.0,
+    "edge": "sub_edge",
+    "judge": {
+      "name": "Distance",
+      "distance": 57
+    }
+  },
+  {
+    "name": "Stop",
+    "time": 10
+  },
+  {
+    "name": "RotateAction",
+    "forward": 60,
+    "turn_ratio": 10,
+    "direction": "RIGHT",
+    "judge": {
+      "name": "Distance",
+      "distance": 7
+    }
+  },
+  {
+    "name": "LineTraceAction",
+    "forward": 67,
+    "p_gain": 1.5,
+    "i_gain": 0.5,
+    "d_gain": 2.0,
+    "edge": "main_edge",
+    "judge": {
+      "name": "Distance",
+      "distance": 350
+    }
+  },
+  {
+    "name": "RotateAction",
+    "forward": 60,
+    "turn_ratio": 10,
+    "direction": "RIGHT",
+    "judge": {
+      "name": "Distance",
+      "distance": 1
+    }
+  },
+  {
+    "name": "LineTraceAction",
+    "forward": 65,
+    "p_gain": 1.5,
+    "i_gain": 0.5,
+    "d_gain": 2.0,
+    "edge": "sub_edge",
+    "judge": {
+      "name": "Distance",
+      "distance": 295
+    }
+  },
+  {
+    "name": "ForwardAction",
+    "forward": 65,
+    "judge": {
+      "name": "Distance",
+      "distance": 24
+    }
+  },
+  {
+    "name": "LineTraceAction",
+    "forward": 65,
+    "p_gain": 1.5,
+    "i_gain": 0.5,
+    "d_gain": 2.0,
+    "edge": "sub_edge",
+    "judge": {
+      "name": "Distance",
+      "distance": 70
+    }
+  },
+  {
+    "name": "LineTraceAction",
+    "forward": 60,
+    "p_gain": 1.5,
+    "i_gain": 0.4,
+    "d_gain": 3.5,
+    "edge": "sub_edge",
+    "judge": {
+      "name": "BlueLine"
+    }
+  },
+  {
+    "name": "LineTraceAction",
+    "forward": 75,
+    "p_gain": 0.9,
+    "i_gain": 0.02,
+    "d_gain": 3.5,
+    "edge": "sub_edge",
+    "judge": {
+      "name": "Distance",
+      "distance": 130
+    }
+  },
+  {
+    "name": "Stop",
+    "time": 1000
+  },
+  {
+    "name": "RotateAction",
+    "forward": 50,
+    "turn_ratio": 100,
+    "direction": "RIGHT",
+    "judge": {
+      "name": "Distance",
+      "distance": 10
+    }
+  },
+  {
+    "name": "Stop",
+    "time": 100
+  },
+  {
+    "name": "RotateAction",
+    "forward": 75,
+    "turn_ratio": 9,
+    "direction": "LEFT",
+    "judge": {
+      "name": "Distance",
+      "distance": 170
+    }
+  },
+  {
+    "name": "RotateAction",
+    "forward": 50,
+    "turn_ratio": 8,
+    "direction": "LEFT",
+    "judge": {
+      "name": "Color",
+      "distance": "COLOR_BLACK"
+    }
+  },
+  {
+    "name": "Stop",
+    "time": 500
+  },
+  {
+    "name": "RotateAction",
+    "forward": 50,
+    "turn_ratio": 100,
+    "direction": "LEFT",
+    "judge": {
+      "name": "Distance",
+      "distance": 10
+    }
+  },
+  {
+    "name": "LineTraceAction",
+    "forward": 65,
+    "p_gain": 1.0,
+    "i_gain": 0.03,
+    "d_gain": 3.0,
+    "edge": "main_edge",
+    "judge": {
+      "name": "BlueLine"
+    }
+  },
+  {
+    "name": "Stop",
+    "time": 10
+  }
+]
