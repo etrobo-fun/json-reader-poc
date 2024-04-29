@@ -1,14 +1,23 @@
 #ifndef JSONREADER_H
 #define JSONREADER_H
 
+#include <fstream>
+#include <string>
+#include "json.hpp"
+
+using json = nlohmann::json;
+using namespace std;
+
 class JsonReader {
 private:
-  string file_name;
+  string _fileName;
+  json _data;
 
 public:
-  JsonReader(string file_name);
-  bool hasNext();
-  void next(); // TODO: return some object.
-}
+  JsonReader(string fileName);
+  // bool hasNext();
+  // void next(); // TODO: return some object.
+  string getData();
+};
 
 #endif

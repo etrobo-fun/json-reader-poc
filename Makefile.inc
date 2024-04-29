@@ -1,8 +1,15 @@
-APPL_COBJS += 
+mkfile_path := $(dir $(lastword $(MAKEFILE_LIST)))
 
-APPL_CXXOBJS +=
+# APPL_COBJS += 
+APPL_CXXOBJS += JsonReader.o
 
 SRCLANG := c++
+
+INCLUDES += \
+	-I$(mkfile_path)external/json/single_include/nlohmann/ \
+	-I$(mkfile_path)src
+
+APPL_DIRS += $(mkfile_path)src
 
 ifdef CONFIG_EV3RT_APPLICATION
 
