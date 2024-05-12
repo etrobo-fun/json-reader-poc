@@ -11,7 +11,6 @@
 
 ```console
 $ git clone --recursive git@github.com:etrobo-fun/googletest-tutorial
-$ cd googletest-tutorial
 $ cd external/json
 $ git checkout v3.11.3
 $ cd $ETROBO_ROOT
