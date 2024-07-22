@@ -8,5 +8,5 @@ JsonReader::JsonReader(string fileName)
 }
 
 string JsonReader::getData() {
-  return _data;
+  return _data[0]["name"];
 }

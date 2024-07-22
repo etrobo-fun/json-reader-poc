@@ -15,6 +15,6 @@ extern "C" void __sync_synchronize() {}
 using namespace std;
 
 void main_task(intptr_t unused) {
-  JsonReader jr("scenario.json");
+  JsonReader jr("./json-reader-poc/scenario.json");
   cout << jr.getData() << endl;
 }
